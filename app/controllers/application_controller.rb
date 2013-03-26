@@ -1,3 +1,11 @@
-class ApplicationController < ActionController::Base
-  protect_from_forgery
+class StaticPagesController < ApplicationController
+
+  def home
+  end
+
+  def help
+  end
+
+  def about
+  end
 end
